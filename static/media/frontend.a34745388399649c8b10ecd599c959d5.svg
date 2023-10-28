@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="22.000977px" height="22.000977px" viewBox="0 0 22.000977 22.000977" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxtwotonekeyboard-open" fill-opacity="1">
+    <path d="M22 0L22 0L22 22L0 22L0 0L22 0Z" id="vuesaxtwotonekeyboard-open" fill="none" stroke="none" />
+    <g id="vuesaxtwotonekeyboard-open">
+      <g id="keyboard-open">
+        <path d="M15.336 1.83333C15.9319 1.83333 16.4635 1.85169 16.9402 1.91586C19.4794 2.20002 20.1669 3.39168 20.1669 6.65501L20.1669 12.4483C20.1669 15.7117 19.4794 16.9033 16.9402 17.1875C16.4635 17.2517 15.941 17.27 15.336 17.27L6.6552 17.27C6.05937 17.27 5.52771 17.2517 5.05104 17.1875C2.51187 16.9033 1.82438 15.7117 1.82438 12.4483L1.82438 6.65501C1.82438 3.39168 2.51187 2.20002 5.05104 1.91586C5.52771 1.85169 6.05937 1.83333 6.6552 1.83333L15.336 1.83333Z" id="Vector" fill="none" stroke="#E6AC7D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M12.4484 7.62651L15.8217 7.62651" id="Vector" fill="none" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M6.17855 12.934L6.19687 12.934L15.831 12.934" id="Vector" fill="none" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M6.41667 20.1667L15.5833 20.1667" id="Vector" fill="none" fill-rule="evenodd" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M1.90735e-06 22.0008L1.90735e-06 0L22.0008 0L22.0008 22.0008L1.90735e-06 22.0008Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        <path d="M6.59514 7.60815L6.60338 7.60815" id="Vector" fill="none" fill-rule="evenodd" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M9.61997 7.60815L9.6282 7.60815" id="Vector" fill="none" fill-rule="evenodd" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>

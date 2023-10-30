@@ -1,0 +1,196 @@
+$color-primary: #e6ac7d;
+$color-primary-dark: #2c314b;
+$color-primary-light: #404462;
+$color-accent: #646c93;
+$color-dark: #161d2e;
+$color-light: #f5f5f5;
+
+$color-gradient: radial-gradient(
+  circle,
+  #161d2e,
+  #181f32,
+  #1a2236,
+  #1c243a,
+  #1e273e,
+  #1f2840,
+  #1f2a42,
+  #202b44,
+  #1f2b45,
+  #1f2a45,
+  #1e2a46,
+  #1e2946
+);
+
+.bg-dark {
+  background-color: $color-dark;
+}
+
+.bg-light {
+  background-color: $color-light;
+}
+
+.bg-primary-light {
+  background-color: $color-primary-light;
+}
+.bg-mprimary {
+  background-color: $color-primary;
+}
+.bg-primary-dark {
+  background-color: $color-primary-dark;
+}
+.bg-accent {
+  background-color: $color-accent;
+}
+.bg-gradient {
+  background: $color-gradient;
+}
+
+.tx-light {
+  color: $color-light;
+}
+
+.tx-dark {
+  color: $color-dark;
+}
+
+.tx-primary {
+  color: $color-primary;
+}
+
+.tx-accent {
+  color: $color-accent;
+}
+
+.tx-primary-light {
+  color: $color-primary-light;
+}
+
+.border-line {
+  border-bottom: 1px solid $color-accent;
+}
+
+.border-line-top {
+  border-top: 1px solid $color-accent;
+}
+
+.button-primary {
+  background-color: $color-primary;
+  color: $color-primary-dark;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+}
+
+.button-secondary {
+  border: 1px solid $color-primary;
+  color: $color-primary;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+}
+
+@mixin centerContent() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bucket {
+  width: 90% !important;
+  max-width: 90% !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+html,
+body {
+  font-weight: 400;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  background-color: $color-dark;
+}
+
+.App-header {
+  @include centerContent();
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+}
+
+.App-body {
+  @include centerContent();
+}
+
+.App-footer {
+  @include centerContent();
+}
+.App-Scroll-Container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  width: 100%;
+  min-height: 60vh;
+  overflow-y: hidden;
+  justify-content: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@import url("./Web/TextSass.scss");
+@import url("./Web/NavbarSass.css");
+@import url("./Web/HomeSass.scss");
+@import url("./Web/Stacks.scss");
+@import url("./Web/Servicesass.scss");
+@import url("./Web/FeaturedSass.scss");
+@import url("./Web/Samplesass.scss");
+@import url("./Web/Contactsass.scss");
+@import url("./Web/BgSass.scss");
+@import url("./Web/Foot.scss");
+@import url("./Web/Comingsoon.scss");
+
+@media only screen and (max-width: 595px) {
+}
+
+@media only screen and (min-width: 596px) and (max-width: 888px) {
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1224px) {
+}
+@media only screen and (min-width: 1225px) and (max-width: 1512px) {
+  .bucket {
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1513px) {
+  .bucket {
+    width: 70%;
+    max-width: 70% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}

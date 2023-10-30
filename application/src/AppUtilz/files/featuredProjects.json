@@ -1,0 +1,89 @@
+{
+    "featured": [
+      {
+        "heading":"GET BETTER AT TAKING ASSESSMENT TEST FOR YOUR INTERVIEWS OR SELF LEARNING.",
+        "classnames":"portfolio-item portfolio-item-single podium",
+        "name": "Podium",
+        "tools": ["Kotlin", "Retrofit", "RESTful API", "Dagger-Hilt"],
+        "desc": "Podium provides hundreds of world-class assessment test to help you prepare for your next interview or linkedin assessment. Currently available on android and as Restful API.",
+        "progress": "10% Complete",
+        "github": "https://github.com/JamesNjong/Podium",
+        "livelink": "https://drive.google.com/u/1/uc?id=1IYKSheUDMWfYo4FM9Qna7iAoJGWVHumW&export=download",
+        "image": "podium.png"
+      },
+      {
+        "heading":"A SIMPLE AND HASSLE-FREE PAYMENT EXPERIENCE FOR ALL MERCHANTS.",
+        "classnames":"portfolio-item portfolio-item-single nkolo",
+        "name": "Nkolo",
+        "tools": ["Java", "Firebase", "Dagger-Hilt","Room", "Node JS"],
+        "desc": "Nkolo is an invoicing app, designed for small merchants to quickly create and send invoices with attached payment links. Currently available as as android app, it provides small business an exciting way to manage payments on the go.",
+        "progress": "In Design",
+        "github": "https://github.com/JamesNjong/Nkolo",
+        "livelink": "https://drive.google.com/u/1/uc?id=1HaFItme64USArQutWj9WULoRSQlalC9w&export=download",
+        "image": "nkolo.png"
+      },
+      {
+        "heading":"BRING YOUR TIME AND MONEY TO ONE PLACE, AND MANAGE THEM WITH EASE.",
+        "classnames":"portfolio-item portfolio-item-span kombi",
+        "name": "Kombi",
+        "tools": ["Java", "Firebase", "Dagger-Hilt","Room", "Retrofit"],
+        "desc": "A user friendly task manager, giving your the power and functionality of google calendar, and Calendly in one app. Kombi allows your to create scheduling links, and manage your budget from a single app, currently availbale for android and coming to iOS and the web soon.",
+        "progress": "In Design",
+        "github": "https://github.com/JamesNjong/Kombi",
+        "livelink": "https://drive.google.com/u/1/uc?id=1o1_QgvhIVuvKJUxs4Vi3_zRlw-k3nja8&export=download",
+        "image": "kombi.png"
+      } 
+    ], 
+    "Library":[
+        
+      {
+        "name": "IP Tracker",
+        "tools": ["HTML", "CSS", "JS","API"],
+        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
+        "github": "https://github.com/JamesNjong/multistepform",
+        "livelink": "https://www.njongjames.com/multistepform",
+        "image": "iptracker"
+      },
+      
+      {
+        "name": "URL Shortner",
+        "tools": ["Mongo", "Express", "React","Node"],
+        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
+        "github": "https://github.com/JamesNjong/multistepform",
+        "livelink": "https://www.njongjames.com/multistepform",
+        "image": "iptracker"
+      },
+      {
+        "name": "Rest Countries",
+        "tools": ["HTML", "CSS", "JS","API"],
+        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
+        "github": "https://github.com/JamesNjong/multistepform",
+        "livelink": "https://www.njongjames.com/multistepform",
+        "image": "iptracker"
+      },
+      {
+        "name": "Multi-step Form",
+        "tools": ["React","Framer-Motion"],
+        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
+        "github": "https://github.com/JamesNjong/multistepform",
+        "livelink": "https://www.njongjames.com/multistepform",
+        "image": "form"
+      },
+      {
+        "name": "Calculator",
+        "tools": ["React","Bootstrap"],
+        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
+        "github": "https://github.com/JamesNjong/multistepform",
+        "livelink": "https://www.njongjames.com/multistepform",
+        "image": "calculator"
+      }, 
+      {
+        "name": "Dictionary",
+        "tools": ["HTML", "CSS", "JS"],
+        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
+        "github": "https://github.com/JamesNjong/multistepform",
+        "livelink": "https://www.njongjames.com/multistepform",
+        "image": "form"
+      }
+    ]
+}

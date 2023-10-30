@@ -1,0 +1,171 @@
+.App-Navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 5000;
+}
+
+.AppNavbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.AppNavbar-content .navbar-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.AppNavbar-content .navbar-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.navbar-items .nav-link {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+}
+.navbar-items .nav-link .item-iconImage {
+  display: none;
+}
+.navbar-items .nav-link span {
+  color: white !important;
+}
+.navbar-items .nav-link:hover {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 6px 16px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(139, 139, 139, 0.2), 0 6px 20px 0 rgba(77, 84, 113, 0.19);
+}
+.navbar-items .nav-link:hover span {
+  display: inline-block;
+  color: white !important;
+}
+.navbar-items .nav-link:hover .item-iconImage {
+  display: inline-block;
+}
+.navbar-items .active-tab {
+  transition: ease-in-out 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 6px 16px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(139, 139, 139, 0.2), 0 6px 20px 0 rgba(77, 84, 113, 0.19);
+  color: white !important;
+}
+.navbar-items .active-tab span {
+  display: inline-block;
+  color: white !important;
+}
+
+.buttonResume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  background-color: none;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: ease-in-out 0.6s;
+}
+.buttonResume .downloadButton-text {
+  font-weight: 400 !important;
+  transition: ease-in-out 0.6s;
+}
+
+.navbar-resume {
+  transition: ease-in-out 0.6s;
+}
+
+@media only screen and (max-width: 595px) {
+  .App-Navbar {
+    position: fixed;
+    bottom: 0;
+    background-color: #646c93 !important;
+  }
+  .downloadButton-text {
+    display: none;
+  }
+  .downloadButton-icon {
+    display: inline-block;
+    padding: 10px auto;
+  }
+  .navbar-branding {
+    display: none;
+  }
+  .navbar-items {
+    justify-content: space-between;
+    min-width: 70%;
+  }
+  .navbar-items .nav-link .nav-link_text {
+    display: none;
+  }
+  .navbar-items .nav-link .item-iconImage {
+    display: inline-block;
+  }
+  .navbar-items .active-tab {
+    transition: ease-in-out 0.5s;
+  }
+  .navbar-items .active-tab .nav-link_text {
+    display: none !important;
+  }
+  .AppNavbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+  }
+}
+@media only screen and (min-width: 596px) and (max-width: 888px) {
+  .downloadButton-text {
+    display: none;
+  }
+  .downloadButton-icon {
+    display: inline-block;
+    padding: 10px auto;
+  }
+  .navbar-branding {
+    display: none;
+  }
+}
+@media only screen and (min-width: 889px) and (max-width: 1224px) {
+  .downloadButton-text {
+    display: none;
+  }
+  .downloadButton-icon {
+    display: inline-block;
+    padding: 10px auto;
+  }
+  .navbar-branding {
+    display: inline-block;
+  }
+}/*# sourceMappingURL=NavbarSass.css.map */

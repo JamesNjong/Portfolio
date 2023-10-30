@@ -1,0 +1,171 @@
+@import url("./Web/TextSass.scss");
+@import url("./Web/NavbarSass.css");
+@import url("./Web/HomeSass.scss");
+@import url("./Web/Stacks.scss");
+@import url("./Web/Servicesass.scss");
+@import url("./Web/FeaturedSass.scss");
+@import url("./Web/Samplesass.scss");
+@import url("./Web/Contactsass.scss");
+@import url("./Web/BgSass.scss");
+@import url("./Web/Foot.scss");
+@import url("./Web/Comingsoon.scss");
+.bg-dark {
+  background-color: #161d2e;
+}
+
+.bg-light {
+  background-color: #f5f5f5;
+}
+
+.bg-primary-light {
+  background-color: #404462;
+}
+
+.bg-mprimary {
+  background-color: #e6ac7d;
+}
+
+.bg-primary-dark {
+  background-color: #2c314b;
+}
+
+.bg-accent {
+  background-color: #646c93;
+}
+
+.bg-gradient {
+  background: radial-gradient(circle, #161d2e, #181f32, #1a2236, #1c243a, #1e273e, #1f2840, #1f2a42, #202b44, #1f2b45, #1f2a45, #1e2a46, #1e2946);
+}
+
+.tx-light {
+  color: #f5f5f5;
+}
+
+.tx-dark {
+  color: #161d2e;
+}
+
+.tx-primary {
+  color: #e6ac7d;
+}
+
+.tx-accent {
+  color: #646c93;
+}
+
+.tx-primary-light {
+  color: #404462;
+}
+
+.border-line {
+  border-bottom: 1px solid #646c93;
+}
+
+.border-line-top {
+  border-top: 1px solid #646c93;
+}
+
+.button-primary {
+  background-color: #e6ac7d;
+  color: #2c314b;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+}
+
+.button-secondary {
+  border: 1px solid #e6ac7d;
+  color: #e6ac7d;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+}
+
+.bucket {
+  width: 90% !important;
+  max-width: 90% !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+html,
+body {
+  font-weight: 400;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: #161d2e;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-Scroll-Container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  width: 100%;
+  min-height: 60vh;
+  overflow-y: hidden;
+  justify-content: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.App-Scroll-Container::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 1225px) and (max-width: 1512px) {
+  .bucket {
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1513px) {
+  .bucket {
+    width: 70%;
+    max-width: 70% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=App.css.map */

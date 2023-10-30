@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokendirect-right" fill-opacity="1">
+    <path d="M0 0L17 0L17 15L0 15L0 0Z" id="vuesaxbrokendirect-right" fill="none" fill-rule="evenodd" stroke="none" />
+    <g id="vuesaxbrokendirect-right">
+      <g id="direct-right">
+        <path d="M5.45427 1.91878C3.50635 1.01253 1.38844 2.84378 2.37302 4.58128L3.52052 6.60628C3.83927 7.16878 3.83927 7.83128 3.52052 8.39378L2.37302 10.4188C1.38844 12.1563 3.50635 13.9813 5.45427 13.0813L13.6639 9.26878C15.2789 8.51878 15.2789 6.48128 13.6639 5.73128L8.72677 3.43753" id="Vector" fill="none" stroke="#E6AC7D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M17 0L17 15L0 15L0 0L17 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

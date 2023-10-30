@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxtwotonemicroscope" fill-opacity="1">
+    <path d="M22 0L22 0L22 22L0 22L0 0L22 0Z" id="vuesaxtwotonemicroscope" fill="none" stroke="none" />
+    <g id="vuesaxtwotonemicroscope">
+      <g id="microscope">
+        <g id="Group" transform="translate(2.8851726 1.833781)">
+          <path d="M16.0798 4.56476C16.6023 4.21642 16.7398 3.50142 16.3915 2.98809L14.7232 0.503902C14.3748 -0.0185984 13.6598 -0.156095 13.1465 0.192238L7.95817 3.66641L10.8915 8.0389L16.0798 4.56476Z" id="Vector" fill="none" stroke="#E6AC7D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M8.27383 4.10578L10.6202 7.60949L6.24061 10.5425L3.8942 7.0388L8.27383 4.10578Z" id="Vector" fill="none" fill-rule="evenodd" stroke="#E6AC7D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M6.07942 10.3216L4.02608 7.25993L0.405247 9.67991C-0.0164197 9.96408 -0.126417 10.5324 0.15775 10.9541L1.19358 12.4941C1.46858 12.9066 2.03692 13.0166 2.45859 12.7416L6.07942 10.3216Z" id="Vector" fill="none" stroke="#E6AC7D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <path d="M11.0454 11.1835L6.92961 20.1668" id="Vector" fill="none" fill-rule="evenodd" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M11 11.1835L15.07 20.1668" id="Vector" fill="none" fill-rule="evenodd" stroke="#E6AC7D" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M22 0L22 22L0 22L0 0L22 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

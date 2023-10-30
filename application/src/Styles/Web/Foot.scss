@@ -1,0 +1,123 @@
+.footer {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .foot-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    .foot-buttons {
+      margin-top: 5rem;
+      row-gap: 3rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 3rem;
+    }
+  }
+
+  .foot-container {
+    padding: 5rem 5rem;
+    border-radius: 3rem;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(
+      124deg,
+      #2f365b 0%,
+      #303964 49.86%,
+      #2f4199 100%
+    );
+  }
+
+  .foot-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    .footer_nav {
+      text-decoration: none;
+    }
+    .ft-middle_col-1 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 10px;
+      .logo-class {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .foot_socials {
+        .social_nav {
+          text-decoration: none;
+        }
+      }
+    }
+    .ft-middle_col-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .ft-middle_col-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+  }
+
+  .foot-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .foot-top {
+    max-width: 100%;
+    overflow: hidden;
+    .foot-buttons {
+      margin-top: 5rem;
+      row-gap: 3rem;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 888px) {
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1224px) {
+}
+@media only screen and (min-width: 1225px) and (max-width: 1512px) {
+}
+
+@media only screen and (min-width: 1513px) {
+}

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 770px) and (max-width: 1023px) {
+  .content-desc {
+    max-width: 95%;
+  }
+  .App-Home {
+    min-height: 100vh;
+    max-width: 98vw;
+    display: none;
+  }
+}/*# sourceMappingURL=Tablet.css.map */

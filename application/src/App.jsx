@@ -4,14 +4,14 @@ import "./Styles/Resets/reset.css";
 import "./Styles/Resets/default_base.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from "./Pages/HomePage";
-import Comingsoon from "./Pages/Comingsoon";
+import Works from "./Pages/Portfolio";
 
 function App() {
   return (
     <div className="App bg-primary-dark">
       <Routes>
         <Route path="/" Component={HomePage} />
-        <Route exact path="/comingsoon" Component={Comingsoon} />
+        <Route exact path="/portfolio" Component={Works} />
       </Routes>
     </div>
   );

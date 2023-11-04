@@ -19,13 +19,16 @@ class Footer extends Component {
           <div className="footer-content">
             <div className="foot-top">
               <h2 className="tx-light font-text-bold size-h3">
-                "we are looking for a guy who's going to work hard and work hard
-                from day one, and I think such a guy should bring a lot of
-                versatility to the team"
+                "We can never be sure of 100% percent output, but if there is 1%
+                hope, we give 100% effort."
               </h2>
               <div className="foot-buttons">
-                <button className="button-primary mx-4">Schedule a call</button>
-                <button className="button-secondary">Get Resume</button>
+                <a
+                  href="https://calendly.com/jamesnjong/30min"
+                  className="button-primary font-link-regular"
+                >
+                  Schedule a call
+                </a>
               </div>
             </div>
             <div className="foot-container">

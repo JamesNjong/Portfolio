@@ -1,89 +1,231 @@
 {
     "featured": [
       {
-        "heading":"GET BETTER AT TAKING ASSESSMENT TEST FOR YOUR INTERVIEWS OR SELF LEARNING.",
+        
         "classnames":"portfolio-item portfolio-item-single podium",
-        "name": "Podium",
-        "tools": ["Kotlin", "Retrofit", "RESTful API", "Dagger-Hilt"],
-        "desc": "Podium provides hundreds of world-class assessment test to help you prepare for your next interview or linkedin assessment. Currently available on android and as Restful API.",
+        "name": "I. Podium",
+        "tools": ["Kotlin", "Retrofit", "Node JS", "Express", "MongoDB", "Dagger-Hilt"],
+        "desc": "Podium makes it easy to prepare for technical interviews by giving you short quizes on any subject of your choice. The is a fullstack web-app, as well as a native mobile app for android.",
         "progress": "10% Complete",
         "github": "https://github.com/JamesNjong/Podium",
         "livelink": "https://drive.google.com/u/1/uc?id=1IYKSheUDMWfYo4FM9Qna7iAoJGWVHumW&export=download",
-        "image": "podium.png"
+        "image": "4.png" 
       },
       {
-        "heading":"A SIMPLE AND HASSLE-FREE PAYMENT EXPERIENCE FOR ALL MERCHANTS.",
+        
         "classnames":"portfolio-item portfolio-item-single nkolo",
-        "name": "Nkolo",
+        "name": "II. Nkolo",
         "tools": ["Java", "Firebase", "Dagger-Hilt","Room", "Node JS"],
-        "desc": "Nkolo is an invoicing app, designed for small merchants to quickly create and send invoices with attached payment links. Currently available as as android app, it provides small business an exciting way to manage payments on the go.",
+        "desc": "Nkolo is an invoicing app which allows merchants to send payment links. It comes as a native android app built with Java and with a backend which combines firebase and NodeJS to collect payments.",
         "progress": "In Design",
         "github": "https://github.com/JamesNjong/Nkolo",
-        "livelink": "https://drive.google.com/u/1/uc?id=1HaFItme64USArQutWj9WULoRSQlalC9w&export=download",
-        "image": "nkolo.png"
+        "livelink": "https://drive.google.com/u/1/uc?id=1Iquty37T4ioJCklxH0ner49Egw5pJOOb&export=download",
+        "image": "16.png" 
       },
       {
-        "heading":"BRING YOUR TIME AND MONEY TO ONE PLACE, AND MANAGE THEM WITH EASE.",
-        "classnames":"portfolio-item portfolio-item-span kombi",
-        "name": "Kombi",
-        "tools": ["Java", "Firebase", "Dagger-Hilt","Room", "Retrofit"],
-        "desc": "A user friendly task manager, giving your the power and functionality of google calendar, and Calendly in one app. Kombi allows your to create scheduling links, and manage your budget from a single app, currently availbale for android and coming to iOS and the web soon.",
-        "progress": "In Design",
+        
+        "classnames":"portfolio-item portfolio-item-single kombi",
+        "name": "III. Kombi",
+        "tools": ["Java", "Firebase", "Dagger-Hilt","Room", "Node JS", "Express", "Retrofit"],
+        "desc": "Kombi is a Calendly knockoff which provides scheduling, budgetting and task management functionality. Currently available as a native mobile app for android with web services built with node and express.",
+        "role": "UI Design",
         "github": "https://github.com/JamesNjong/Kombi",
         "livelink": "https://drive.google.com/u/1/uc?id=1o1_QgvhIVuvKJUxs4Vi3_zRlw-k3nja8&export=download",
-        "image": "kombi.png"
+        "image": "15.png"
+      } ,
+      {
+        
+        "classnames":"portfolio-item portfolio-item-single zeword",
+        "name": "IV. Zeword",
+        "tools": ["Kotlin", "Jetpack Compose", "Dagger-Hilt", "Kotlin Coroutines", "Android Room"],
+        "desc": "Zeword is a mobile offline bible application with an inbuilt note-taker. It is built as a native application for android and uses local storage to manage user data.",
+        "progress": "In Design",
+        "github": "https://github.com/JamesNjong/Kombi",
+        "livelink": "https://drive.google.com/u/1/uc?id=1CaTzYGa-ZFXxrOaFF59AHvbltJUjy4rq&export=download",
+        "image": "13.png" 
       } 
     ], 
     "Library":[
-        
       {
-        "name": "IP Tracker",
-        "tools": ["HTML", "CSS", "JS","API"],
-        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
-        "github": "https://github.com/JamesNjong/multistepform",
-        "livelink": "https://www.njongjames.com/multistepform",
-        "image": "iptracker"
-      },
-      
-      {
-        "name": "URL Shortner",
-        "tools": ["Mongo", "Express", "React","Node"],
-        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
-        "github": "https://github.com/JamesNjong/multistepform",
-        "livelink": "https://www.njongjames.com/multistepform",
-        "image": "iptracker"
+        "name": "Podium Web",
+        "tools": ["React", "Sass", "JS","REST API"],
+        "desc": "Platform allows users to create short test which can be taken by users on the podium mobile app.", 
+        "github": "https://github.com/JamesNjong/podium",
+        "livelink": "https://www.njongjames.com/podium",
+        "image": "iptracker",
+        "backend":false, 
+        "mobile":false, 
+        "frontend":true,
+        "type":"In Design"
       },
       {
-        "name": "Rest Countries",
-        "tools": ["HTML", "CSS", "JS","API"],
-        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
-        "github": "https://github.com/JamesNjong/multistepform",
-        "livelink": "https://www.njongjames.com/multistepform",
-        "image": "iptracker"
+        "name": "Podium API",
+        "tools": ["Node", "Express", "MongoDB","REST"],
+        "desc": "Restful API for managing CRUD operations for all quizes available on the podium project.", 
+        "github": "https://github.com/JamesNjong/podium",
+        "livelink": "https://www.njongjames.com/podium",
+        "image": "podium",
+        "backend":true, 
+        "mobile":false, 
+        "frontend":false,
+        "type": "Deployed"
       },
       {
-        "name": "Multi-step Form",
-        "tools": ["React","Framer-Motion"],
-        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
-        "github": "https://github.com/JamesNjong/multistepform",
-        "livelink": "https://www.njongjames.com/multistepform",
-        "image": "form"
+        "name": "Podium Mobile",
+        "tools": ["Kotlin", "Retrofit", "Jetpack", "Moshi" ],
+        "desc": "Podium mobile app makes it easy to prepare for technical interviews by giving you short quizes on any subject of your choice.", 
+        "github": "https://github.com/JamesNjong/podium",
+        "livelink": "https://www.njongjames.com/podium",
+        "image": "podium",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "Deployed"
+      },
+        {
+        "name": "Nkolo Mobile",
+        "tools": ["Java", "Firebase", "Jetpack", "MVVM" ],
+        "desc": "Invoicing application for small businesses to create and send payment links via sms.", 
+        "github": "https://github.com/JamesNjong/nkolo",
+        "livelink": "https://www.njongjames.com/nkolo",
+        "image": "nkolo",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "Deployed"
       },
       {
-        "name": "Calculator",
-        "tools": ["React","Bootstrap"],
-        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
-        "github": "https://github.com/JamesNjong/multistepform",
-        "livelink": "https://www.njongjames.com/multistepform",
-        "image": "calculator"
-      }, 
+        "name": "Nkolo API",
+        "tools": ["Node", "Express", "PUG", "MVC" ],
+        "desc": "Restful API for managing payment links, serves a dynamic pug template each time a payment link is clicked.", 
+        "github": "https://github.com/JamesNjong/nkolo",
+        "livelink": "https://www.njongjames.com/nkolo",
+        "image": "podium",
+        "backend":true, 
+        "mobile":false, 
+        "frontend":false,
+        "type": "Deployed"
+      },
       {
-        "name": "Dictionary",
-        "tools": ["HTML", "CSS", "JS"],
-        "desc": "Fully offline Catholic bible for mobile and web built with Kotlin, and SwiftUi.", 
-        "github": "https://github.com/JamesNjong/multistepform",
-        "livelink": "https://www.njongjames.com/multistepform",
-        "image": "form"
+        "name": "Nkolo Web",
+        "tools": ["React", "TypeScript", "Tailwind", "MVC" ],
+        "desc": "Invoicing application for small businesses to create and send payment links via email.", 
+        "github": "https://github.com/JamesNjong/nkolo",
+        "livelink": "https://www.njongjames.com/nkolo",
+        "image": "podium",
+        "backend":false, 
+        "mobile":false, 
+        "frontend":true,
+        "type": "In Design"
+      },
+      {
+        "name": "Kombi Mobile",
+        "tools": ["Java", "Firebase", "Jetpack", "Retrofit" ],
+        "desc": "Android scheduling application with task, project and budget management functionalities.", 
+        "github": "https://github.com/JamesNjong/podium",
+        "livelink": "https://www.njongjames.com/podium",
+        "image": "podium",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "Deployed"
+      },
+      {
+        "name": "Kombi Web",
+        "tools": ["Angular", "TypeScript", "Firebase", "MVC" ],
+        "desc": "Web scheduling application with task, project and budget management functionalities.", 
+        "github": "https://github.com/JamesNjong/podium",
+        "livelink": "https://www.njongjames.com/podium",
+        "image": "podium",
+        "backend":false, 
+        "mobile":false, 
+        "frontend":true,
+        "type": "In Design"
+      },
+      {
+        "name": "Kombi API",
+        "tools": ["Node", "Express", "Firebase", "MVC" ],
+        "desc": "Scheduling web services with  support for task, project and budget management.", 
+        "github": "https://github.com/JamesNjong/kombi",
+        "livelink": "https://www.njongjames.com/kombi",
+        "image": "podium",
+        "backend":true, 
+        "mobile":false, 
+        "frontend":false,
+        "type": "Deployed"
+      },
+      {
+        "name": "Zeword",
+        "tools": ["Kotlin", "JSON", "Android Room", "MVC" ],
+        "desc": "Offline android bible application, with and in-built note taker and bookmarks manager.", 
+        "github": "https://github.com/JamesNjong/zeword",
+        "livelink": "https://www.njongjames.com/zeword",
+        "image": "podium",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "Deployed"
+      },
+      {
+        "name": "Linkout API",
+        "tools": ["Python", "Django", "MongoDB", "MVC" ],
+        "desc": "A web service for serving jobs to the Linkout web and mobile applications.", 
+        "github": "https://github.com/JamesNjong/linkout",
+        "livelink": "https://www.njongjames.com/linkout",
+        "image": "linkout",
+        "backend":true, 
+        "mobile":false, 
+        "frontend":false,
+        "type": "In Design"
+      },
+      {
+        "name": "Linkout Web",
+        "tools": ["Angular", "TypeScript", "MVC" ],
+        "desc": "Linkout is a job board with a custom ATS to help you get instant feedback on the probability of your application getting to the recruiter.", 
+        "github": "https://github.com/JamesNjong/zeword",
+        "livelink": "https://www.njongjames.com/zeword",
+        "image": "podium",
+        "backend":false, 
+        "mobile":false, 
+        "frontend":true,
+        "type": "In Design"
+      },
+      {
+        "name": "Linkout mobile",
+        "tools": ["Kotlin", "Jetpack","Retrofit", "MVVM" ],
+        "desc": "Linkout is a job board with a custom ATS to help you get instant feedback on the probability of your application getting to the recruiter.", 
+        "github": "https://github.com/JamesNjong/zeword",
+        "livelink": "https://www.njongjames.com/zeword",
+        "image": "podium",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "In Design"
+      }  
+       ,
+      {
+        "name": "Runz",
+        "tools": ["Flutter", "Firebase", "Android Studio"],
+        "desc": "Realtime chat application with phone number authentication.", 
+        "github": "https://github.com/JamesNjong/runz",
+        "livelink": "https://www.njongjames.com/runz",
+        "image": "form",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "In Design"
+      },
+      {
+        "name": "chakka",
+        "tools": ["ReactNative", "Firebase", "MVC"],
+        "desc": "Prototyped e-commerce application. Chakka is a hybrid app built with react native and firebase.", 
+        "github": "https://github.com/JamesNjong/runz",
+        "livelink": "https://www.njongjames.com/runz",
+        "image": "form",
+        "backend":false, 
+        "mobile":true, 
+        "frontend":false,
+        "type": "In Design"
       }
     ]
 }

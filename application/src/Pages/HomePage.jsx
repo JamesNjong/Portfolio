@@ -21,11 +21,12 @@ class HomePage extends Component {
         </header>
         <div className="App-body">
           <Home />
-          <About />
-          <Background />
           <Services />
+          <About />
           <Featured />
+          <Background />
           <Contact />
+          <Footer />
         </div>
       </div>
     );

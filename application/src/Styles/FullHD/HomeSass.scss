@@ -1,0 +1,180 @@
+.App-Home {
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.AppHome-Content {
+  height: 100%;
+  margin-top: 6vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.1rem;
+    margin-top: 4rem;
+    width: 100%;
+  }
+}
+.content-desc {
+  display: inline;
+  max-width: 60vw;
+  width: 60vw;
+}
+
+@media only screen and (max-width: 369px) {
+  .AppHome-Content {
+    height: 100%;
+    margin-top: 6vh;
+    width: 100%;
+    padding: 5rem 0.5rem;
+    border-radius: 2rem;
+
+    .content-desc {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.1rem;
+      margin-top: 4rem;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 595px) {
+  .AppHome-Content {
+    height: 100%;
+    margin-top: 6vh;
+    width: 100%;
+    padding: 5rem 1rem;
+    border-radius: 2rem;
+
+    .content-desc {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 1099px) {
+  .AppHome-Content {
+    height: 100%;
+    margin-top: 6vh;
+    width: 100%;
+    padding: 5rem 1rem;
+    border-radius: 2rem;
+
+    .button-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 3rem;
+      width: 100%;
+    }
+
+    .content-who {
+      max-width: 90%;
+    }
+
+    .content-desc {
+      max-width: 90%;
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1280px) {
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+  .content-desc {
+    max-width: 60%;
+  }
+}
+@media only screen and (min-width: 1235px) and (max-width: 1512px) {
+  .AppHome-Content {
+    height: 100%;
+    margin-top: 6vh;
+    width: 100%;
+    padding: 5rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .content-who {
+      max-width: 90%;
+    }
+
+    .content-desc {
+      max-width: 60%;
+      width: 60%;
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (min-width: 1513px) {
+  .AppHome-Content {
+    height: 100%;
+    margin-top: 6vh;
+    width: 100%;
+    padding: 5rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .content-who {
+      max-width: 90%;
+    }
+
+    .content-desc {
+      max-width: 60%;
+      width: 60%;
+      text-align: start;
+    }
+  }
+}

@@ -13,7 +13,7 @@ class Background extends Component {
   };
   render() {
     return (
-      <div className="AppBackground" id="background">
+      <div className="AppBackground bg-dark" id="background">
         <div className="bucket">
           <div className="bg-content">
             <div className="size-h2 font-text-bold tx-light">Background.</div>

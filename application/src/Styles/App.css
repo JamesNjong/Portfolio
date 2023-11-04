@@ -1,14 +1,14 @@
-@import url("./Web/TextSass.scss");
-@import url("./Web/NavbarSass.css");
-@import url("./Web/HomeSass.scss");
-@import url("./Web/Stacks.scss");
-@import url("./Web/Servicesass.scss");
-@import url("./Web/FeaturedSass.scss");
-@import url("./Web/Samplesass.scss");
-@import url("./Web/Contactsass.scss");
-@import url("./Web/BgSass.scss");
-@import url("./Web/Foot.scss");
-@import url("./Web/Comingsoon.scss");
+@import url("./FullHD/TextSass.scss");
+@import url("./FullHD/NavbarSass.css");
+@import url("./FullHD/HomeSass.scss");
+@import url("./FullHD/Stacks.scss");
+@import url("./FullHD/Servicesass.scss");
+@import url("./FullHD/FeaturedSass.scss");
+@import url("./FullHD/Samplesass.scss");
+@import url("./FullHD/Contactsass.scss");
+@import url("./FullHD/BgSass.scss");
+@import url("./FullHD/Foot.scss");
+@import url("./FullHD/Comingsoon.scss");
 .bg-dark {
   background-color: #161d2e;
 }
@@ -67,16 +67,66 @@
 
 .button-primary {
   background-color: #e6ac7d;
+  border: 1px solid #e6ac7d;
   color: #2c314b;
   border-radius: 3rem;
-  padding: 1rem 4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 2rem;
+}
+.button-primary a {
+  text-decoration: none;
+}
+.button-primary:hover {
+  border: 1px solid #e6ac7d;
+  background-color: #2c314b;
+  color: #e6ac7d;
+  transition: ease-in-out 0.6s;
+}
+.button-primary:hover a {
+  text-decoration: none;
+  color: #e6ac7d;
 }
 
 .button-secondary {
   border: 1px solid #e6ac7d;
   color: #e6ac7d;
   border-radius: 3rem;
-  padding: 1rem 4rem;
+  padding: 0.5rem 1rem;
+}
+.button-secondary a {
+  text-decoration: none;
+}
+.button-secondary:hover {
+  background-color: #e6ac7d;
+  color: #2c314b;
+  transition: ease-in-out 0.6s;
+}
+.button-secondary:hover a {
+  text-decoration: none;
+  color: #2c314b;
+}
+
+.buttonResume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: ease-in-out 0.6s;
+  border: 1px solid #e6ac7d;
+  margin-left: 1rem;
+}
+.buttonResume .buttonResume-span {
+  text-decoration: none;
+}
+.buttonResume:hover {
+  background-color: #e6ac7d;
+  color: #2c314b;
+  transition: ease-in-out 0.6s;
 }
 
 .bucket {
@@ -114,6 +164,7 @@ body::-webkit-scrollbar {
   width: 100vw;
   position: fixed;
   z-index: 1000;
+  box-shadow: 1px 1px 4px 0 rgba(111, 111, 111, 0.1);
 }
 
 .App-body {

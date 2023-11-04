@@ -75,16 +75,68 @@ $color-gradient: radial-gradient(
 
 .button-primary {
   background-color: $color-primary;
+  border: 1px solid $color-primary;
   color: $color-primary-dark;
   border-radius: 3rem;
-  padding: 1rem 4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 2rem;
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    border: 1px solid $color-primary;
+    background-color: $color-primary-dark;
+    color: $color-primary;
+    transition: ease-in-out 0.6s;
+    a {
+      text-decoration: none;
+      color: $color-primary;
+    }
+  }
 }
 
 .button-secondary {
   border: 1px solid $color-primary;
   color: $color-primary;
   border-radius: 3rem;
-  padding: 1rem 4rem;
+  padding: 0.5rem 1rem;
+  a {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-primary-dark;
+    transition: ease-in-out 0.6s;
+    a {
+      text-decoration: none;
+      color: $color-primary-dark;
+    }
+  }
+}
+.buttonResume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: ease-in-out 0.6s;
+  border: 1px solid $color-primary;
+  margin-left: 1rem;
+
+  .buttonResume-span {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-primary-dark;
+    transition: ease-in-out 0.6s;
+  }
 }
 
 @mixin centerContent() {
@@ -125,6 +177,7 @@ body {
   width: 100vw;
   position: fixed;
   z-index: 1000;
+  box-shadow: 1px 1px 4px 0 rgba(111, 111, 111, 0.1);
 }
 
 .App-body {
@@ -149,17 +202,17 @@ body {
   }
 }
 
-@import url("./Web/TextSass.scss");
-@import url("./Web/NavbarSass.css");
-@import url("./Web/HomeSass.scss");
-@import url("./Web/Stacks.scss");
-@import url("./Web/Servicesass.scss");
-@import url("./Web/FeaturedSass.scss");
-@import url("./Web/Samplesass.scss");
-@import url("./Web/Contactsass.scss");
-@import url("./Web/BgSass.scss");
-@import url("./Web/Foot.scss");
-@import url("./Web/Comingsoon.scss");
+@import url("./FullHD/TextSass.scss");
+@import url("./FullHD/NavbarSass.css");
+@import url("./FullHD/HomeSass.scss");
+@import url("./FullHD/Stacks.scss");
+@import url("./FullHD/Servicesass.scss");
+@import url("./FullHD/FeaturedSass.scss");
+@import url("./FullHD/Samplesass.scss");
+@import url("./FullHD/Contactsass.scss");
+@import url("./FullHD/BgSass.scss");
+@import url("./FullHD/Foot.scss");
+@import url("./FullHD/Comingsoon.scss");
 
 @media only screen and (max-width: 595px) {
 }

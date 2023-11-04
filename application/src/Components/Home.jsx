@@ -12,22 +12,32 @@ class Home extends Component {
       <div className="App-Home" id="home">
         <div className="bucket">
           <div className="AppHome-Content">
-            <h1 className="tx-primary font-text-bold size-h6">
-              this is James.
-            </h1>
-            <h1 className="tx-light font-text-bold size-h2">
-              The versatile problem solver for your product or growth teams.
+            <h1 className="tx-light font-text-bold size-h1">this is James.</h1>
+            <h1 className="tx-primary font-text-bold size-h3 content-who">
+              a fullstack developer keen on :
             </h1>
             <p className="size-h4 tx-light content-desc">
-              Add an eloquent, versatile and proactive problem solver to help
-              drive value creation on your team. James offers expertise in
-              fullstack software development, data engineering, and mobile
-              application development.
+              building enduring native mobile experiences, interdisciplinary
+              problem-solving and, leveraging data to drive growth or product
+              development.
             </p>
 
             <div className="button-group">
-              <button className="button-primary mx-4">Schedule a call</button>
-              <button className="button-secondary">Learn more</button>
+              <button className="button-primary ">
+                {" "}
+                <a
+                  href="https://calendly.com/jamesnjong/30min"
+                  className="tx-dark"
+                  target="blank"
+                >
+                  Schedule a call
+                </a>{" "}
+              </button>
+              <button className="button-secondary">
+                <a href="#stack" className="tx-primary">
+                  Learn more
+                </a>{" "}
+              </button>
             </div>
           </div>
         </div>

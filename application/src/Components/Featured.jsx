@@ -10,10 +10,10 @@ class Featured extends Component {
   }
   state = {
     section: "Portfolio",
-    heading: "05. Featured Projects",
+    heading: "04. Featured Projects",
   };
   getImage = (image) => {
-    return require("../AppUtilz/images/" + image);
+    return require("../AppUtilz/images/mockupwide/" + image);
   };
 
   getClass = (key) => {
@@ -38,24 +38,30 @@ class Featured extends Component {
                   return (
                     <div className={item.classnames}>
                       <div className="pcc-item_top">
-                        <p className="font-text-medium size-h3">
-                          {item.heading}
+                        <p className="font-text-bold tx-dark size-h3">
+                          {item.name}
                         </p>
-                        <p className="font-text-regular size-h4 my-4">
+                        <div className="pcc-item_stack">
+                          {item.tools.map((i, k) => {
+                            return <span className="pcc-stack-item ">{i}</span>;
+                          })}
+                        </div>
+                        <p className="font-text-regular tx-dark size-h4 my-4">
                           {item.desc}
                         </p>
 
-                        <div className="livelinks">
+                        <div className="livelinks ">
                           <div className="livelinks-item web-link">
-                            <a
-                              href={item.livelink}
-                              className="live_link tx-dark font-link-bold"
+                            <Link
+                              to={item.livelink}
+                              className="live_link tx-dark  font-link-bold"
                               target="_blank"
                             >
                               Download APK
-                            </a>
+                            </Link>
                             <img src={hub} />
                           </div>
+
                           <div className="livelinks-item github-link">
                             <a
                               href={item.github}
@@ -70,13 +76,13 @@ class Featured extends Component {
                         </div>
                       </div>
 
-                      <img
-                        src={this.getImage(item.image)}
-                        alt=""
-                        height={300}
-                        width={300}
-                        className="img-fluid img-rounded img-span shadow-sm"
-                      />
+                      <div className="project-parts">
+                        <img
+                          src={this.getImage(item.image)}
+                          alt="image"
+                          className="img-fluid img-span "
+                        />
+                      </div>
                     </div>
                   );
                 })}
@@ -87,6 +93,27 @@ class Featured extends Component {
       </section>
     );
   }
+
+  singleSpan = (item) => {
+    return (
+      <div className={item.classnames}>
+        <div className="pcc-item_top">
+          <p className="font-text-bold size-h3">{item.name}</p>
+          <p className="font-text-regular size-h4 my-4">{item.desc}</p>
+        </div>
+
+        <div className="project-parts">
+          <img
+            src={this.getImage(item.image)}
+            alt="image"
+            height={400}
+            width={600}
+            className="img-fluid img-span"
+          />
+        </div>
+      </div>
+    );
+  };
 }
 
 export default Featured;

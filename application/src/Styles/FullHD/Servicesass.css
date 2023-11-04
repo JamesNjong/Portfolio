@@ -1,0 +1,239 @@
+.services-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.services-page .service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.services-page .service-content .service-header {
+  width: 100%;
+  text-align: start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.services-page .service-content .service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+.services-page .service-content .service-grid .service-item {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem 2rem;
+  background-color: #404462;
+}
+.services-page .service-content .service-grid .service-item:hover {
+  box-shadow: 4px 4px 4px 0 rgba(111, 111, 111, 0.1);
+}
+.services-page .service-content .service-grid .service-item .si-top {
+  min-height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-page .service-content .service-grid .service-item .si-button {
+  margin-top: 2rem;
+}
+.services-page .service-content .service-grid .service-item .si-button .button-projects {
+  padding: 1rem 1rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.services-page .service-content .service-grid .service-item .si-button .button-projects:hover {
+  background-color: black;
+}
+
+@media only screen and (max-width: 595px) {
+  .services-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 70vh;
+  }
+  .services-page .service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+  }
+  .services-page .service-content .service-header {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .services-page .service-content .service-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .services-page .service-content .service-grid .service-item {
+    min-height: 40vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+    background-color: #404462;
+  }
+  .services-page .service-content .service-grid .service-item:hover {
+    box-shadow: 4px 4px 4px 0 rgba(111, 111, 111, 0.1);
+  }
+  .services-page .service-content .service-grid .service-item .si-top {
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-page .service-content .service-grid .service-item .si-button {
+    margin-top: 2rem;
+  }
+  .services-page .service-content .service-grid .service-item .si-button .button-projects {
+    padding: 1rem 1rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+  .services-page .service-content .service-grid .service-item .si-button .button-projects:hover {
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 596px) and (max-width: 888px) {
+  .services-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 70vh;
+  }
+  .services-page .service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+  }
+  .services-page .service-content .service-header {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .services-page .service-content .service-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .services-page .service-content .service-grid .service-item {
+    min-height: 40vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5rem 5rem;
+    background-color: #404462;
+  }
+  .services-page .service-content .service-grid .service-item:hover {
+    box-shadow: 4px 4px 4px 0 rgba(111, 111, 111, 0.1);
+  }
+  .services-page .service-content .service-grid .service-item .si-top {
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-page .service-content .service-grid .service-item .si-button {
+    margin-top: 2rem;
+  }
+  .services-page .service-content .service-grid .service-item .si-button .button-projects {
+    padding: 1rem 1rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+  .services-page .service-content .service-grid .service-item .si-button .button-projects:hover {
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 889px) and (max-width: 1224px) {
+  .services-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 70vh;
+  }
+  .services-page .service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+  }
+  .services-page .service-content .service-header {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .services-page .service-content .service-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .services-page .service-content .service-grid .service-item {
+    min-height: 40vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 8rem;
+    background-color: #404462;
+  }
+  .services-page .service-content .service-grid .service-item:hover {
+    box-shadow: 4px 4px 4px 0 rgba(111, 111, 111, 0.1);
+  }
+  .services-page .service-content .service-grid .service-item .si-top {
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-page .service-content .service-grid .service-item .si-button {
+    margin-top: 2rem;
+  }
+  .services-page .service-content .service-grid .service-item .si-button .button-projects {
+    padding: 1rem 1rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+  .services-page .service-content .service-grid .service-item .si-button .button-projects:hover {
+    background-color: black;
+  }
+}/*# sourceMappingURL=Servicesass.css.map */

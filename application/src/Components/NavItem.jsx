@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import ItemIcon from "./ItemIcon";
 
-const NavItem = ({
-  sectionLink,
-  sectionName,
-  sectionIcon,
-  sectionCLass,
-  handleClicks,
-}) => {
+const NavItem = ({ sectionLink, sectionName, sectionCLass, handleClicks }) => {
   return (
     <a
       className={sectionCLass}
@@ -15,9 +9,7 @@ const NavItem = ({
       href={sectionLink}
       onClick={() => handleClicks(sectionName)}
     >
-      <ItemIcon icon={sectionIcon} alt={sectionName} />
-      <span className="nav-link_text">{sectionName}</span>
-
+      <span className="nav-link_text tx-light">{sectionName}</span>
     </a>
   );
 };

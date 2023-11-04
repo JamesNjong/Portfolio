@@ -170,56 +170,6 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            <div className="contact_socials ">
-              <span className="tx-light font-text-bold size-h5">
-                Connect on
-              </span>
-              <a href="https://github.com/JamesNjong/" target="_blank">
-                {" "}
-                <img
-                  src={github}
-                  width="30"
-                  alt=""
-                  className="img-fluid social_icon m-2 "
-                />{" "}
-              </a>
-              <a
-                href="https://www.linkedin.com/in/james-jr-njong/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={linkedin}
-                  width="30"
-                  alt=""
-                  className="img-fluid social_icon m-2 "
-                />{" "}
-              </a>
-
-              <a href="mailto:njongjames@outlook.com" target="_blank">
-                {" "}
-                <img
-                  src={outlook}
-                  width="30"
-                  alt=""
-                  className="img-fluid social_icon m-2"
-                />{" "}
-              </a>
-              <a
-                aria-label="Chat on WhatsApp"
-                href="https://wa.me/+237674811226"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  src={whatsapp}
-                  width="30"
-                  alt=""
-                  className="img-fluid social_icon m-2"
-                />{" "}
-              </a>
-            </div>
           </div>
         </div>
       </div>

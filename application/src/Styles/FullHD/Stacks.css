@@ -1,0 +1,302 @@
+.App-Stack {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.AppStack-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.AppStack-Grid {
+  min-height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: start;
+  gap: 3%;
+}
+
+.stack-col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.stack-col-1 .sc-1_top {
+  height: 39vh;
+  max-height: 39vh;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stack-col-1 .sc-1_top .img-span {
+  border-radius: 1rem;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+.stack-col-1 .sc-1_bottom {
+  border-radius: 1rem;
+  height: 30vh;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.stack-col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.stack-col-2 .sc-2_bottom {
+  max-height: 39vh;
+  height: 39vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border-radius: 3rem;
+}
+.stack-col-2 .sc-2_bottom .img-span {
+  border-radius: 1rem;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+.stack-col-2 .sc-2_top {
+  border-radius: 1rem;
+  height: 30vh;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.stack-col-3 {
+  display: flex;
+  max-height: 70vh;
+}
+.stack-col-3 .sc-3_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  height: 70vh;
+}
+
+@media only screen and (max-width: 595px) {
+  .AppStack-Grid {
+    min-height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+  }
+  .stack-col-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1vh;
+  }
+  .stack-col-1 .sc-1_top {
+    height: 39vh;
+    max-height: 39vh;
+    min-width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .stack-col-1 .sc-1_top .img-span {
+    border-radius: 1rem;
+    height: 100% !important;
+    max-height: 100% !important;
+    min-height: 100% !important;
+  }
+  .stack-col-1 .sc-1_bottom {
+    border-radius: 1rem;
+    height: 30vh;
+    width: 100%;
+    min-width: 100%;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+  }
+  .stack-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  .stack-col-2 .sc-2_bottom {
+    max-height: 39vh;
+    height: 39vh;
+    -o-object-fit: fill;
+       object-fit: fill;
+    border-radius: 3rem;
+    display: none;
+  }
+  .stack-col-2 .sc-2_bottom .img-span {
+    border-radius: 1rem;
+    height: 100% !important;
+    max-height: 100% !important;
+  }
+  .stack-col-2 .sc-2_top {
+    border-radius: 1rem;
+    height: 30vh;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+  }
+  .stack-col-3 {
+    display: flex;
+    max-height: 50vh;
+    height: 50vh;
+  }
+  .stack-col-3 .sc-3_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    height: 100%;
+    gap: 2rem;
+  }
+}
+@media only screen and (min-width: 596px) and (max-width: 1099px) {
+  .App-Stack {
+    min-height: 80vh;
+    min-width: 100vw;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .AppStack-Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .AppStack-Grid {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+  }
+  .stack-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 46%;
+  }
+  .stack-col-1 .sc-1_top {
+    height: 39vh;
+    max-height: 39vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .stack-col-1 .sc-1_top .img-span {
+    border-radius: 1rem;
+    height: 100% !important;
+    max-height: 100% !important;
+  }
+  .stack-col-1 .sc-1_bottom {
+    border-radius: 1rem;
+    height: 30vh;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+  }
+  .stack-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 47%;
+  }
+  .stack-col-2 .sc-2_bottom {
+    max-height: 39vh;
+    height: 39vh;
+    -o-object-fit: fill;
+       object-fit: fill;
+    border-radius: 3rem;
+    display: none;
+  }
+  .stack-col-2 .sc-2_bottom .img-span {
+    border-radius: 1rem;
+    height: 100% !important;
+    max-height: 100% !important;
+  }
+  .stack-col-2 .sc-2_top {
+    border-radius: 1rem;
+    height: 30vh;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+  }
+  .stack-col-3 {
+    display: flex;
+    min-height: 20vh;
+    max-height: 30vh;
+    height: 30vh;
+    -moz-column-span: 2;
+         column-span: 2;
+    margin-top: 2rem;
+  }
+  .stack-col-3 .sc-3_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    height: 30vh;
+    gap: 2rem;
+  }
+}/*# sourceMappingURL=Stacks.css.map */

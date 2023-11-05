@@ -88,6 +88,14 @@ class Featured extends Component {
                 })}
               </div>
             </div>
+
+            <div className="button-all">
+              <Link to="/portfolio">
+                <button className="button-primary portfolio-button">
+                  <span>View all projects</span>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

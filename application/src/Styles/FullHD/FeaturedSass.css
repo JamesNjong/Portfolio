@@ -81,6 +81,15 @@
 .portfolios-page .portfolio-content-container .scroll-container .pcc-body .portfolio-item .pcc-item_stack ma .pcc-stack-item {
   text-decoration: underline;
 }
+.portfolios-page .portfolio-content-container .button-all {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 
 .kombi {
   background-color: #f6f4ef;

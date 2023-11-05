@@ -12,7 +12,9 @@ class Home extends Component {
       <div className="App-Home" id="home">
         <div className="bucket">
           <div className="AppHome-Content">
-            <h1 className="tx-light font-text-bold size-h1">this is James.</h1>
+            <h1 className="tx-light font-text-bold size-h1 tij">
+              this is James.
+            </h1>
             <h1 className="tx-primary font-text-bold size-h3 content-who">
               a fullstack developer keen on
             </h1>

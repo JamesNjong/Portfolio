@@ -92,8 +92,8 @@
   .AppHome-Content .button-group {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 1rem;
     margin-top: 3rem;
     width: 100%;

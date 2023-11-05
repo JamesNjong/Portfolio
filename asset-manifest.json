@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb7e7c2c.css",
-    "main.js": "/static/js/main.32cebf42.js",
+    "main.css": "/static/css/main.6fb1d336.css",
+    "main.js": "/static/js/main.86e0368c.js",
     "static/js/787.98651143.chunk.js": "/static/js/787.98651143.chunk.js",
     "static/media/Profile.png": "/static/media/Profile.dcde3708b7db3f9a06c3.png",
     "static/media/shot.jpg": "/static/media/shot.8cafc85ba385601403a1.jpg",
@@ -36,12 +36,12 @@
     "static/media/hamburger.svg": "/static/media/hamburger.289ec6b27d331a41ad671af161b0d7fd.svg",
     "static/media/hamburger_close.svg": "/static/media/hamburger_close.757412b432c3d31b87ac48cbef3bb87c.svg",
     "static/media/LinkedIN.svg": "/static/media/LinkedIN.4feee1e733ee7f61743a54e458243599.svg",
-    "main.fb7e7c2c.css.map": "/static/css/main.fb7e7c2c.css.map",
-    "main.32cebf42.js.map": "/static/js/main.32cebf42.js.map",
+    "main.6fb1d336.css.map": "/static/css/main.6fb1d336.css.map",
+    "main.86e0368c.js.map": "/static/js/main.86e0368c.js.map",
     "787.98651143.chunk.js.map": "/static/js/787.98651143.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb7e7c2c.css",
-    "static/js/main.32cebf42.js"
+    "static/css/main.6fb1d336.css",
+    "static/js/main.86e0368c.js"
   ]
 }

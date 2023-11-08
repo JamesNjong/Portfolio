@@ -512,6 +512,9 @@
   .portfolio-page .content .content-works .content-grid .work-item .work-content .work-footer .work-github {
     padding: 1rem 2rem;
     border-left: 1px solid #2c314b;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
   }
 }
 @media only screen and (min-width: 1001px) and (max-width: 1212px) {

@@ -8,6 +8,7 @@ import emailjs from "@emailjs/browser";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AnimationEffect from "./AnimationEffect";
 
 const Contact = () => {
   let section = "Contact";
@@ -94,15 +95,17 @@ const Contact = () => {
       <div className="bucket">
         <div className="contact-content-container">
           <div className="ccc-left">
-            <p
-              className="section-lable tx-primary 
+            <AnimationEffect delay={0.4}>
+              <p
+                className="section-lable tx-primary 
             font-text-bold size-h4"
-            >
-              Let's get you{" "}
-            </p>
-            <h3 className="tx-light size-h2 font-text-bold tx-ag">
-              to that audacious goal !
-            </h3>
+              >
+                Let's get you{" "}
+              </p>
+              <h3 className="tx-light size-h2 font-text-bold tx-ag">
+                to that audacious goal !
+              </h3>
+            </AnimationEffect>
           </div>
           <div className="ccc-right">
             <div className="form-holder bg-dark">

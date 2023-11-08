@@ -523,6 +523,9 @@
                 .work-github {
                   padding: 1rem 2rem;
                   border-left: 1px solid #2c314b;
+                  display: flex;
+                  flex-direction: row;
+                  gap: 4px;
                 }
               }
             }

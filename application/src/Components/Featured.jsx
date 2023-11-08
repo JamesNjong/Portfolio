@@ -51,27 +51,15 @@ class Featured extends Component {
                         </p>
 
                         <div className="livelinks ">
-                          <div className="livelinks-item web-link">
+                          <div className="livelinks-item web-link size-h4">
                             <Link
-                              to={item.livelink}
-                              className="live_link tx-dark  font-link-bold"
-                              target="_blank"
+                              to={{
+                                pathname: `/portfolio/projects/${item.dlink}`,
+                              }}
+                              className="live_link tx-dark font-text-bold"
                             >
-                              Download APK
+                              Learn More
                             </Link>
-                            <img src={hub} />
-                          </div>
-
-                          <div className="livelinks-item github-link">
-                            <a
-                              href={item.github}
-                              className="live_link tx-dark font-link-bold"
-                              target="_blank"
-                            >
-                              View on Github
-                            </a>
-
-                            <img src={hub} />
                           </div>
                         </div>
                       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import background from "../AppUtilz/files/background.json";
+import AnimationEffect from "./AnimationEffect";
 class Background extends Component {
   constructor(props) {
     super(props);
@@ -49,7 +50,7 @@ class Background extends Component {
             : this.state.tabClass
         }
       >
-        {item}
+        <AnimationEffect delay={1}>{item}</AnimationEffect>
       </span>
     );
   };
@@ -73,21 +74,23 @@ class Background extends Component {
     return (
       <div className="Tab-Content">
         {content.map((item, index) => (
-          <div className="Tab-Content-item border-line-top tx-light">
-            <p className="Tab-Content-item_what size-h4 font-text-bold">
-              {item.what}{" "}
-            </p>
-            <a
-              href={item.link}
-              className="size-h5 font-link-bold tx-primary where-link "
-              target="blank"
-            >
-              {item.where}
-            </a>{" "}
-            <span className="Tab-Content-item_when  size-h5 font-text-regular ">
-              {item.when}
-            </span>
-          </div>
+          <AnimationEffect delay={0.8}>
+            <div className="Tab-Content-item border-line-top tx-light">
+              <p className="Tab-Content-item_what size-h4 font-text-bold">
+                {item.what}{" "}
+              </p>
+              <a
+                href={item.link}
+                className="size-h5 font-link-bold tx-primary where-link "
+                target="blank"
+              >
+                {item.where}
+              </a>{" "}
+              <span className="Tab-Content-item_when  size-h5 font-text-regular ">
+                {item.when}
+              </span>
+            </div>
+          </AnimationEffect>
         ))}
       </div>
     );

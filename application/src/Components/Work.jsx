@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import github from "../AppUtilz/Iconography/socials/Github.svg";
 import live from "../AppUtilz/Iconography/live.svg";
 import arrow from "../AppUtilz/Iconography/arrowup.svg";
+import AnimationEffect from "../Components/AnimationEffect";
 
 const Work = ({ project }) => {
+  const about = project.name;
+
   return (
     <div className="work-item bg-accent">
       <div className="work-content">
@@ -32,30 +36,16 @@ const Work = ({ project }) => {
         </div>
         <div className="work-footer">
           <div className="work-footer_left">
-            <a
-              href={project.livelink}
-              target="blank"
-              className={
-                project.mobile
-                  ? "work-link_live font-link-regular tx-light d-none"
-                  : "work-link_live font-link-regular tx-light"
-              }
+            <Link
+              to={{
+                pathname: `/portfolio/projects/${project.dlink}`,
+                query: { backurl: about },
+              }}
+              className="font-link-regular tx-light"
             >
-              <img src={live} height={24} width={24} alt="" />
-              <span>Live</span>
-            </a>
-            <a
-              href={project.livelink}
-              target="blank"
-              className={
-                project.mobile
-                  ? "work-link_mobile font-link-regular tx-light"
-                  : "work-link_mobile font-link-regular tx-light d-none"
-              }
-            >
-              <span>Mobile app</span>
+              <span>Learn More</span>
               <img src={arrow} height={24} width={24} alt="" />
-            </a>
+            </Link>
           </div>
           <a
             href={project.github}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import data from "../AppUtilz/files/featuredProjects.json";
 import Work from "../Components/Work";
+import AnimationEffect from "../Components/AnimationEffect";
 
 class Comingsoon extends Component {
   constructor(props) {
@@ -33,26 +34,30 @@ class Comingsoon extends Component {
             <div className="content-menu">
               {this.state.buttons.map((i, key) => {
                 return (
-                  <button
-                    className={this.getButtonClass(i.name)}
-                    onClick={() => {
-                      this.setState({ activeTab: i.name });
-                    }}
-                  >
-                    {this.state.activeTab != i.name
-                      ? i.name
-                      : `${i.name} (${this.getList().length})`}
-                  </button>
+                  <AnimationEffect delay={key % 2 == 0 ? 0.5 : 0.8}>
+                    <button
+                      className={this.getButtonClass(i.name)}
+                      onClick={() => {
+                        this.setState({ activeTab: i.name });
+                      }}
+                    >
+                      {this.state.activeTab != i.name
+                        ? i.name
+                        : `${i.name} (${this.getList().length})`}
+                    </button>
+                  </AnimationEffect>
                 );
               })}
             </div>
-            <div className="content-works">
-              <div className="content-grid">
-                {this.getList().map((item, k) => {
-                  return <Work key={k} project={item} />;
-                })}
+            <AnimationEffect delay={0.8}>
+              <div className="content-works">
+                <div className="content-grid">
+                  {this.getList().map((item, k) => {
+                    return <Work key={k} project={item} />;
+                  })}
+                </div>
               </div>
-            </div>
+            </AnimationEffect>
           </div>
         </div>
       </div>

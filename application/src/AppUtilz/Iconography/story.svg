@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokenattach-circle" fill-opacity="1">
+    <path d="M29035 3157L29035 3157L29035 3181L29011 3181L29011 3157L29035 3157Z" id="vuesaxbrokenattach-circle" fill="none" stroke="none" />
+    <g id="vuesaxbrokenattach-circle">
+      <g id="attach-circle">
+        <g id="Group" transform="translate(6.7558594 6.98999)">
+          <path d="M5.445 4.80998L4.03497 6.21999C3.25497 6.99999 3.25497 8.27001 4.03497 9.05C4.81497 9.83 6.08499 9.83 6.86498 9.05L9.08502 6.83C10.645 5.27 10.645 2.74 9.08502 1.17C7.52502 -0.39 4.99498 -0.39 3.42498 1.17L1.005 3.58998C-0.335 4.92998 -0.335 7.09999 1.005 8.43999" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        <path d="M4 6C2.75 7.67 2 9.75 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2C10.57 2 9.19997 2.30001 7.96997 2.85001" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>

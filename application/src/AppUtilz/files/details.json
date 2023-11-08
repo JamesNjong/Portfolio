@@ -1,0 +1,512 @@
+{
+    "zeword" : {
+        "projectName":"Zeword", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "chakka" : {
+        "projectName":"Chakka", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "runz" : {
+        "projectName":"Runz", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "linkoutmobile" : {
+        "projectName":"Linkout Mobile", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "linkoutapi" : {
+        "projectName":"Linkout API", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "View API Documentation", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "linkoutweb" : {
+        "projectName":"Linkout Web", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Live Demo", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "nkoloweb" : {
+        "projectName":"Nkolo Web", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Live Demo", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "nkolomobile" : {
+        "projectName":"Nkolo Mobile", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "nkoloapi" : {
+        "projectName":"Nkolo API", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "View API Documentation", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "kombimobile" : {
+        "projectName":"Kombi Mobile", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "kombiweb" : {
+        "projectName":"Kombi Web", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Live Demo", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "kombiapi" : {
+        "projectName":"Kombi API", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "View API Documentation", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "podiumweb" : {
+        "projectName":"Podium Web", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Live Demo", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "podiummobile" : {
+        "projectName":"Podium Mobile", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "Download APK", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    },
+    "podiumapi" : {
+        "projectName":"Podium API", 
+        "projectSummary":"Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.",
+        "jumbutton":{
+            "text" : "View API Documentation", "link":"https://www.njongjames.com/zeword"
+        },
+        "projectStack":{"overview":"Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we have adjusted the alignment and sizing of both column's content for equal-height.",
+                        "github": "https://www.njongjames.com/zeword"},
+        "userStories":{
+            "overview":"Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more." , 
+            "stories": [
+             {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            , {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+            ,  {"storyHead":"UserStory#1 : ",
+            "storyTale":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit "}
+         ]
+        },
+        "Faqs":[
+            {"question": "1. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"One",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "2. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Two",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+            ,
+            {"question": "3. Lorem ipsum dolor sit amet consectetur adipisicing", 
+            "idx":"Three",
+            "response":"dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit dolor sit amet consectetur adipisicing elit. Aspernatur tempora voluptatibus magnam blanditiis fuga ratione veritatis suscipit"}
+        ]
+
+    }
+}

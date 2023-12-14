@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "UltraBold";
+  src: url("./fonts/NeueMachinaUltrabold.otf");
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url("./fonts/TomatoGroteskExtraBold.otf");
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url("./fonts/TomatoGroteskSemiBold.otf");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("./fonts/TomatoGroteskMedium.otf");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("./fonts/TomatoGroteskRegular.otf");
+}
+.stroke-text {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 1.8px;
+  -webkit-text-stroke-color: #111;
+}
+
+.font-ultrabold {
+  font-family: "UltraBold", Courier, monospace;
+}
+
+nav {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  opacity: 100;
+  position: fixed;
+  transition: all ease-in-out linear;
+  top: 0;
+  z-index: 20;
+  background-color: #fff;
+  box-shadow: 0 10px 104px rgba(0, 0, 0, 0.25);
+}
+nav .nav-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.drawerButton {
+  background-color: black !important;
+  gap: 4px;
+  padding: 2rem 2rem 2rem 2rem;
+  cursor: pointer;
+}
+.drawerButton .span-base, .drawerButton .bar-2, .drawerButton .bar-1 {
+  background-color: #fff;
+  height: 3px;
+}
+.drawerButton .bar-1 {
+  width: 4rem;
+}
+.drawerButton .bar-2 {
+  min-width: 3rem;
+}/*# sourceMappingURL=base.css.map */

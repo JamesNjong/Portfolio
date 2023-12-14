@@ -1,0 +1,109 @@
+
+
+// font faces 
+@font-face {
+    font-family: "UltraBold";
+    src: url("./fonts/NeueMachinaUltrabold.otf");
+  }
+  @font-face {
+    font-family: "ExtraBold";
+    src: url("./fonts/TomatoGroteskExtraBold.otf");
+  }
+  @font-face {
+    font-family: "SemiBold";
+    src: url("./fonts/TomatoGroteskSemiBold.otf");
+  }
+  @font-face {
+    font-family: "Medium";
+    src: url("./fonts/TomatoGroteskMedium.otf");
+  }
+  @font-face {
+    font-family: "Regular";
+    src: url("./fonts/TomatoGroteskRegular.otf");
+  }
+
+
+  // colors 
+
+  $color-primary : #111 ;
+  $color-secondary : #fff;
+  $color-accent : #e5e7eb; 
+
+
+
+  // text styles
+  .stroke-text {
+    -webkit-text-fill-color: $color-secondary;
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-stroke-color: $color-primary;
+  }
+
+
+
+  // font classes 
+
+  .font-ultrabold{ 
+    font-family: 'UltraBold', Courier, monospace;
+  }
+
+
+
+
+// navbar 
+
+nav{ 
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    opacity: 100;
+    position: fixed;
+    transition: all ease-in-out linear;
+    top: 0;
+    z-index: 20;
+    background-color: $color-secondary;  
+    box-shadow: 0 10px 104px rgba(0,0,0,0.25);
+
+    .nav-main{
+      //flex  items-center  justify-between w-full md:h-[100px] h-[70px] 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      width: 100%;
+    }
+}
+
+
+
+
+  .drawerButton{
+    background-color: black !important; 
+    gap: 4px;
+    padding: 2rem 2rem 2rem 2rem;
+    cursor: pointer;
+
+    .span-base{
+      background-color: $color-secondary; 
+      height: 3px;
+    }
+  
+    .bar-1{
+      @extend .span-base;
+      width: 4rem; 
+    }
+  
+    .bar-2{
+      @extend .span-base; 
+      min-width: 3rem; 
+    }
+
+  }
+
+
+  

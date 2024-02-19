@@ -1,0 +1,144 @@
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .contactus .contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  .contactus .contact-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contactus .ccc-left {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+  }
+  .contactus .ccc-right {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .contactus .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto;
+    width: 100%;
+  }
+  .contactus .form-holder {
+    width: 100%;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px auto;
+  }
+  .contactus .grey-area {
+    max-width: 100%;
+    width: 90%;
+    margin: 28px 8px 8px 8px;
+    border-radius: 1px;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactus .form-factory {
+    text-align: start;
+    width: 100%;
+    padding: 0px;
+  }
+  .contactus .form-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .contactus textarea {
+    border: none;
+    padding: 8px;
+    margin: 0px auto;
+    resize: none !important;
+    background: none;
+    outline-width: 0px;
+    outline: none;
+    border-radius: 1px;
+    min-width: 10%;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #404462;
+  }
+  .contactus label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px auto;
+    text-align: start;
+    width: 100%;
+  }
+  .contactus input[type=text] {
+    min-width: 10%;
+    height: 4%;
+    min-height: 40px;
+    padding: 6px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    border: none;
+    border-radius: 1px;
+    outline-width: 0px;
+    outline: none;
+    width: 100%;
+  }
+  .contactus input:focus {
+    outline-width: 0;
+    outline: none;
+  }
+  .contactus .cf-button_row {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .contactus .btn-send {
+    width: -moz-fit-content;
+    width: fit-content;
+    background: none;
+    border: none;
+    font-weight: 900;
+    margin-left: 40%;
+    cursor: pointer;
+  }
+  .contactus .contact_socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=xl.css.map */

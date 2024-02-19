@@ -1,25 +1,26 @@
+import logo from './logo.svg';
+import './App.css';
+import './Look.css';
+import './stylus/xs.css';
+import './stylus/sm.css';
+import './stylus/md.css';
+import './stylus/lg.css';
+import './stylus/xl.css';
+
 import { Route, Routes } from "react-router-dom";
-import "./Styles/App.css";
-import "./Styles/Resets/reset.css";
-import "./Styles/Resets/default_base.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.js";
-import HomePage from "./Pages/HomePage";
-import Works from "./Pages/Portfolio";
-import Details from "./Components/Details";
-import ProjectPage from "./Pages/ProjectPage";
-import ScrollToTop from "./Components/ScrollToTop";
+import HomePage from './components/pages/homepage';  
+import ScrollToTop from './components/supports/ScrollToTop';
+import Projects from './components/pages/projectsPage';
 
 function App() {
   return (
     <div className="App bg-primary-dark">
-      <Routes>
-        <Route path="/" Component={HomePage} />
-        <Route exact path="/portfolio" Component={Works} />
-        <Route exact path="/portfolio/projects/:project" Component={Details} />
-      </Routes>
-      <ScrollToTop />
-    </div>
+    <Routes>
+      <Route path="/" Component={HomePage} />
+      <Route exact path="/portfolio" Component={Projects} /> 
+    </Routes>
+    <ScrollToTop/>
+  </div>
   );
 }
 
